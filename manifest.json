@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Comment Linker",
+    "version": "1.0",
+    "permissions": ["https://www.youtube.com/shorts/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/shorts/*"],
+        "js": ["content_script.js"]
+      }
+    ]
+  }
